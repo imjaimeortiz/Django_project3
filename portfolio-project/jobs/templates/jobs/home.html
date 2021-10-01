@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {% load static %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Album example · Bootstrap v5.1</title>
+    <title>imjaimeortiz's website</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
@@ -55,9 +56,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="#">Blog</a>
-              <a class="nav-link" href="#">Linkedin</a>
-              <a class="nav-link" href="#">Instagram</a>
+              <a class="nav-link" href="/blog">Blog</a>
+              <a class="nav-link" href="https://www.linkedin.com/in/jaime-ortiz-arag%C3%B3n-0380881a4/">Linkedin</a>
+              <a class="nav-link" href="https://www.instagram.com/imjaimeortiz/">Instagram</a>
+              <a class="nav-link" href="{% static 'cv.pdf' %}">Get CV</a>
             </div>
           </div>
         </div>
